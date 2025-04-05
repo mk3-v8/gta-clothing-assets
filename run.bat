@@ -1,0 +1,1 @@
+for %f in (*.png) do pngquant --quality=65-80 --ext .png --force "%f"
